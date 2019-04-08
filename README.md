@@ -28,27 +28,27 @@
         - zapisz do bazy
 - zarządzaj kontem
     - utwórz konto
-        -wyświetl formularz
-        -zapisz dane do bazy
-        -wyślij mail z potwierdzeniem
+		- wyświetl formularz
+		- zapisz dane do bazy
+		- wyślij mail z potwierdzeniem
     - zaloguj się
-        -wyświetl formularz
-        - sprawdź poprawność danych
-        - autoryzuj
+		- wyświetl formularz
+		- sprawdź poprawność danych
+		- autoryzuj
     - wyloguj się
     - edytuj dane profilu
-        -wyświetl formularz
-        -zapytaj o potwierdzenie
-        -zapisz dane do bazy
+		- wyświetl formularz
+		- zapytaj o potwierdzenie
+		- zapisz dane do bazy
     - usuń konto
-        -zapytaj o potwierdzenie
-        -usuń istniejące ogłoszenia
-        -usuń dane z bazy
-    - usuń swoje ogłoszenia
-        - wyświetl listę ogłoszeń
-        - zaznacz ogłoszenie do usunięcia
-        - zapytaj o potwierdzenie
-        - usuń ogłoszenie
+		- zapytaj o potwierdzenie
+		- usuń istniejące ogłoszenia
+		- usuń dane z bazy
+	- usuń swoje ogłoszenia
+		- wyświetl listę ogłoszeń
+		- zaznacz ogłoszenie do usunięcia
+		- zapytaj o potwierdzenie
+		- usuń ogłoszenie
 
 		
 ###### Wykonane zadania przez członków:
