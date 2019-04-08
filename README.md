@@ -7,7 +7,7 @@
 6. Mateusz Kukla
 7. Piotr Kubas
 
-###### Diagram funkcji:
+###### Schemat funkcji:
 - zarządzaj ogłoszeniami
     - przeglądaj ogłoszenia
         - sortuj/filtruj ogłoszenia
@@ -21,7 +21,7 @@
                     - wprowadź tekst
                     - wyślij 
                 - dodaj spotkanie
-                    -????
+                    - wybierz termin
     - dodawaj ogłoszenia
         - wyświetl formularz
         - wprowadź dane ogłoszenia
@@ -47,21 +47,33 @@
     - usuń swoje ogłoszenia
         - wyświetl listę ogłoszeń
         - zaznacz ogłoszenie do usunięcia
-        - zapytaj o potwierdzenie (lub nie)
+        - zapytaj o potwierdzenie
         - usuń ogłoszenie
 
 		
 ###### Wykonane zadania przez członków:
 ###### Konrad Dulemba
+* Stworzenie szablonu aplikacji webowej i Android,
+* Udział w tworzeniu schematu bazy danych oraz wprowadzanie późniejszych poprawek,
+* Prace nad połączeniem frontu z back-endem,
 
 ###### Piotr Kwasek
+* Stworzenie wstępnej aplikacji na heroku,
+* Prace nad połączeniem frontu z back-endem,
+* Udział w tworzeniu schematu bazy danych,
 
 ###### Fryderyk Kruczek
+* Udział w tworzeniu schematu bazy danych,
 
 ###### Kamil Król
+* Udział w tworzeniu schematu bazy danych,
+* Schemat funkcji,
 
 ###### Kamil Krok
+* Udział w tworzeniu schematu bazy danych,
 
 ###### Mateusz Kukla
+* Stworzenie schematu bazy danych oraz wprowadzanie późniejszych poprawek,
 
 ###### Piotr Kubas
+* Udział w tworzeniu schematu bazy danych,
