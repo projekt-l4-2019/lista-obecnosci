@@ -7,55 +7,61 @@
 6. Mateusz Kukla
 7. Piotr Kubas
 
-#Diagram funkcji
-- zarządzaj oglszeniami
-    - przegladaj ogloszenia
-        - sortuj/filtruj ogloszenia
-            - wprowadz kryteria
-            - wyswietl raport ogłoszeń
-        - wyswietlaj konkretne oglsozenia
-            - wyswietl informacje o ogloszeniu
-            - wysweitl profil korepetytora
-                - wyswietl dane korepetytora
+###### Diagram funkcji:
+- zarządzaj ogłoszeniami
+    - przeglądaj ogłoszenia
+        - sortuj/filtruj ogłoszenia
+            - wprowadź kryteria
+            - wyświetl raport ogłoszeń
+        - wyświetlaj konkretne ogłoszenia
+            - wyświetl informacje o ogłoszeniu
+            - wyświetl profil korepetytora
+                - wyświetl dane korepetytora
                 - napisz wiadomość
                     - wprowadź tekst
-                    - wyslij 
+                    - wyślij 
                 - dodaj spotkanie
                     -????
-    - dodawaj oglsozenia
-        - wyswietl formularz
-        - wprowadz dane ogloszenia
+    - dodawaj ogłoszenia
+        - wyświetl formularz
+        - wprowadź dane ogłoszenia
         - zapisz do bazy
 - zarządzaj kontem
-    - utworz konto
-        -wyswietl formularz
+    - utwórz konto
+        -wyświetl formularz
         -zapisz dane do bazy
-        -wyslij mail z potweirdzeniem
-    - zaloguj sie
-        -wyswietl formularz
-        - sprawdz poprawnosc danych
+        -wyślij mail z potwierdzeniem
+    - zaloguj się
+        -wyświetl formularz
+        - sprawdź poprawność danych
         - autoryzuj
-    - wyloguj sie
+    - wyloguj się
     - edytuj dane profilu
-        -wyswietl formularz
-        -zapytaj o potweirdzenie
+        -wyświetl formularz
+        -zapytaj o potwierdzenie
         -zapisz dane do bazy
     - usuń konto
         -zapytaj o potwierdzenie
         -usuń istniejące ogłoszenia
         -usuń dane z bazy
     - usuń swoje ogłoszenia
-        - wyswietl listę ogłoszeń
-        - zaznacz ogloszenie do usuniecia
-        - zapytaj o potwierdzenie ( lub nie )
+        - wyświetl listę ogłoszeń
+        - zaznacz ogłoszenie do usunięcia
+        - zapytaj o potwierdzenie (lub nie)
         - usuń ogłoszenie
+
 		
-#Wykonane zadania przez członków:
-#Konrad Dulemba
-123test
-#Piotr Kwasek
-#Fryderyk Kruczek
-#Kamil Król
-#Kamil Krok
-#Mateusz Kukla
-#Piotr Kubas
+###### Wykonane zadania przez członków:
+###### Konrad Dulemba
+
+######Piotr Kwasek
+
+######Fryderyk Kruczek
+
+######Kamil Król
+
+######Kamil Krok
+
+######Mateusz Kukla
+
+######Piotr Kubas
