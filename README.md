@@ -54,14 +54,14 @@
 ###### Wykonane zadania przez członków:
 ###### Konrad Dulemba
 
-######Piotr Kwasek
+###### Piotr Kwasek
 
-######Fryderyk Kruczek
+###### Fryderyk Kruczek
 
-######Kamil Król
+###### Kamil Król
 
-######Kamil Krok
+###### Kamil Krok
 
-######Mateusz Kukla
+###### Mateusz Kukla
 
-######Piotr Kubas
+###### Piotr Kubas
