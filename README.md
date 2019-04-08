@@ -1,4 +1,4 @@
-#Członkowie grupy:
+#członkowie grupy:
 1. Konrad Dulemba
 2. Piotr Kwasek
 3. Fryderyk Kruczek
