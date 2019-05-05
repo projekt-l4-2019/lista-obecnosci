@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="74811F48-5656-C283-2354-4D238393B7D7" name="voivodeship">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>B66D36B8-1632-8191-DBC0-FEE97C5F556F</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_voivodeship" id="DEE8575C-309A-7FA8-6A90-9B59E3669E67">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>6E40ACF7-E0FE-551C-7755-9BCC87FE3631</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name_voivodeship" id="764C674E-48F7-7A98-3A5D-524962B5D300">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>26E63021-C8DB-F4A5-6E5F-EF7EDAA539F8</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>127</dataTypeSize>
+<ownDataTypeParameters>127,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="748E8F78-8BF2-AD85-1AA6-8BBB62E25D66" name="voivodeship_PK">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>8A37B4F8-8ADE-8907-256B-E91F506D1342</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DEE8575C-309A-7FA8-6A90-9B59E3669E67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,213 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="720D5CFA-75D3-CD60-896A-BCAF0A838BE4" name="notice">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 21:25:17 UTC</createdTime>
+<generatorID>8FA26BCB-E95E-3377-A677-6BA8E8F9A168</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<engineerTo>
+<item key="2E8ABFEA-1A44-91EB-E05D-5660B52683AF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id notice" id="13C5305C-5150-0D61-C5EA-494B1C5040CC">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 21:25:17 UTC</createdTime>
+<generatorID>F6A09F4D-7BB9-30FB-6E2E-6C404DB6A1AB</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<engineerTo>
+<item key="2E8ABFEA-1A44-91EB-E05D-5660B52683AF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="look or offer" id="905CADE6-8B8F-33AF-D425-E52D70DA8CEE">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 21:25:17 UTC</createdTime>
+<generatorID>D0B2E54F-7359-F2C6-2660-195E5FFB456C</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<engineerTo>
+<item key="2E8ABFEA-1A44-91EB-E05D-5660B52683AF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="note" id="2F1D90FA-2CAF-6059-8827-8363218EF258">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 21:25:17 UTC</createdTime>
+<generatorID>775B6F8B-6F12-515A-C6C2-518A3536A1B8</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<engineerTo>
+<item key="2E8ABFEA-1A44-91EB-E05D-5660B52683AF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="meeting place" id="4A7E47B5-B02F-1F70-5C5E-23629C68E322">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 21:25:17 UTC</createdTime>
+<generatorID>FA66C61F-EB0F-91E0-446E-6B262BBA7330</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<engineerTo>
+<item key="2E8ABFEA-1A44-91EB-E05D-5660B52683AF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>127</dataTypeSize>
+<ownDataTypeParameters>127,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="meeting date" id="12BC2C6E-F1BC-BDD3-6B25-84F36E493F25">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 21:25:17 UTC</createdTime>
+<generatorID>32194EA2-FFB2-3AF3-BA8A-118C147E6365</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<engineerTo>
+<item key="2E8ABFEA-1A44-91EB-E05D-5660B52683AF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="price" id="9D2C032C-F5A4-550E-E2A8-E060FCE8AA03">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 21:25:17 UTC</createdTime>
+<generatorID>1F91BD3F-FC7F-4CE6-F9CB-5B5C39834B60</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<engineerTo>
+<item key="2E8ABFEA-1A44-91EB-E05D-5660B52683AF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="subject id subject" id="BD9494BE-5537-9ABB-2F4F-D09B0C2A70DA">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 21:25:17 UTC</createdTime>
+<generatorID>5B75D079-63A0-1E10-9913-C6F6B1035914</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<engineerTo>
+<item key="2E8ABFEA-1A44-91EB-E05D-5660B52683AF" value="true"/>
+</engineerTo>
+<referedAttribute>FD266676-AEA0-26C4-9B96-696F9F9270B3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="active" id="CB3EE29A-BCB8-D07F-C65F-311C44281BFA">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 21:25:17 UTC</createdTime>
+<generatorID>3F8F1D86-DB25-0335-AA8B-D488DE8D9F61</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<engineerTo>
+<item key="2E8ABFEA-1A44-91EB-E05D-5660B52683AF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="timestamp" id="3A117EC0-B2B4-1AE8-4A41-6E660664FA2C">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 21:25:17 UTC</createdTime>
+<generatorID>1966DFDA-06AC-860F-3EF7-181FA44209D6</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<engineerTo>
+<item key="2E8ABFEA-1A44-91EB-E05D-5660B52683AF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user id user" id="C0FF4898-C47F-BBB0-266F-4739E018EDB8">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 21:25:17 UTC</createdTime>
+<generatorID>8FFEE721-DC4F-C8FA-1F9F-5615DBF330AB</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<engineerTo>
+<item key="2E8ABFEA-1A44-91EB-E05D-5660B52683AF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>FA92E55B-FF79-E625-2E0D-6569024B793C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="time from" id="8DE990A3-4574-3E97-8D0E-6F11705C61D9">
+<createdBy>kamil</createdBy>
+<createdTime>2019-04-14 21:15:21 UTC</createdTime>
+<ownerDesignName>TeachMe</ownerDesignName>
+<engineerTo>
+<item key="2E8ABFEA-1A44-91EB-E05D-5660B52683AF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="time to" id="7DFCEE0A-4BA5-E490-059E-6E2AB0EEA2BF">
+<createdBy>kamil</createdBy>
+<createdTime>2019-04-14 21:19:10 UTC</createdTime>
+<ownerDesignName>TeachMe</ownerDesignName>
+<engineerTo>
+<item key="2E8ABFEA-1A44-91EB-E05D-5660B52683AF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="meeting id meeting" id="BA3A1BC7-ADC1-D0B3-51B0-2A77FC52E683">
+<createdBy>kamil</createdBy>
+<createdTime>2019-04-14 21:50:08 UTC</createdTime>
+<generatorID>C8DF8581-5033-1F37-E1F4-9386DBBA2706</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<engineerTo>
+<item key="2E8ABFEA-1A44-91EB-E05D-5660B52683AF" value="true"/>
+</engineerTo>
+<referedAttribute>376D0C74-F05A-4C3D-8102-7A3931AE96F8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B4404A90-02ED-C892-2C8E-228EB4A13EC3" name="notice PK">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 21:25:17 UTC</createdTime>
+<generatorID>77ED8239-F8C2-0171-1F07-DA3BF380AD60</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2E8ABFEA-1A44-91EB-E05D-5660B52683AF" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>13C5305C-5150-0D61-C5EA-494B1C5040CC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

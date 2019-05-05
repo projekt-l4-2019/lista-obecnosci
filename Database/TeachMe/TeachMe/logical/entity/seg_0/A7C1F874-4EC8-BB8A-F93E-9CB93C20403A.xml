@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A7C1F874-4EC8-BB8A-F93E-9CB93C20403A" name="meeting cache">
+<createdBy>Mateusz</createdBy>
+<createdTime>2019-04-26 13:08:45 UTC</createdTime>
+<generatorID>31C5B6F2-4BF5-561F-2B7F-7538142E3B58</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<engineerTo>
+<item key="2E8ABFEA-1A44-91EB-E05D-5660B52683AF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id user cache" id="079E5B20-F2FA-8B16-15B5-4B257908EFDD">
+<createdBy>Mateusz</createdBy>
+<createdTime>2019-04-26 13:08:45 UTC</createdTime>
+<generatorID>041DC905-50D9-0416-ED26-D7FF51F5431B</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<engineerTo>
+<item key="2E8ABFEA-1A44-91EB-E05D-5660B52683AF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="meeting place" id="22CBD85A-F633-C4A9-B400-30E414237934">
+<createdBy>Mateusz</createdBy>
+<createdTime>2019-04-26 13:08:45 UTC</createdTime>
+<generatorID>94E2ECBF-6347-C994-DF09-E10E1C47FFBA</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<engineerTo>
+<item key="2E8ABFEA-1A44-91EB-E05D-5660B52683AF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>127</dataTypeSize>
+<ownDataTypeParameters>127,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user id user" id="16613EFA-AF01-25C7-8C61-026338785B4D">
+<createdBy>Mateusz</createdBy>
+<createdTime>2019-04-26 13:08:45 UTC</createdTime>
+<generatorID>3FEBC5CB-41F6-A4E3-0EE8-CFD386551B96</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<engineerTo>
+<item key="2E8ABFEA-1A44-91EB-E05D-5660B52683AF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>FA92E55B-FF79-E625-2E0D-6569024B793C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id meeting" id="141FDDBA-A471-3309-9996-8EFDA1BA9CFD">
+<createdBy>Mateusz</createdBy>
+<createdTime>2019-05-01 12:48:21 UTC</createdTime>
+<generatorID>B26DD274-533F-A467-9FA5-2DE32C89F976</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<engineerTo>
+<item key="2E8ABFEA-1A44-91EB-E05D-5660B52683AF" value="true"/>
+</engineerTo>
+<referedAttribute>376D0C74-F05A-4C3D-8102-7A3931AE96F8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0218C9FB-E37C-BD84-BBA3-3ECAAA8304B8" name="meeting cache PK">
+<createdBy>Mateusz</createdBy>
+<createdTime>2019-04-26 13:08:45 UTC</createdTime>
+<generatorID>A668EBA3-B621-C0C9-E0A9-E0CA29A5AF7C</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2E8ABFEA-1A44-91EB-E05D-5660B52683AF" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>079E5B20-F2FA-8B16-15B5-4B257908EFDD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

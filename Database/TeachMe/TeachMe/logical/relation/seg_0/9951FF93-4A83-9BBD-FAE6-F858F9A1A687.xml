@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="city voivodeship FK" directorySegmentName="seg_0" id="9951FF93-4A83-9BBD-FAE6-F858F9A1A687">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 21:26:55 UTC</createdTime>
+<ownerDesignName>TeachMe</ownerDesignName>
+<engineerTo>
+<item key="2E8ABFEA-1A44-91EB-E05D-5660B52683AF" value="true"/>
+</engineerTo>
+<sourcePk>8A37B4F8-8ADE-8907-256B-E91F506D1342</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B66D36B8-1632-8191-DBC0-FEE97C5F556F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7CD65970-6448-A2CE-F88D-654F70363014</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

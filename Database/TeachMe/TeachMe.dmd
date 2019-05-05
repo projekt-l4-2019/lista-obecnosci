@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="TeachMe" id="584D9B24-A328-EC1A-112B-4A6D8318C032" version="3.5">
+<createdBy>Mateusz</createdBy>
+<createdTime>2019-03-24 00:11:45 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>584D9B24-A328-EC1A-112B-4A6D8318C032</designId>
+</OSDM_Design>

@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="71AF2FC5-6295-AB8E-7828-CAA65E57E0E0" name="opinion">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>940E6C31-07FC-7EF4-69BB-31112744A0BE</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_opinion" id="4F2014ED-51D7-6969-696C-1B78E7906D27">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>31170518-5A52-129D-7D3F-8E1B7EAFF325</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rating" id="581E2587-0051-233D-AE68-AB096F0CC4DB">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>2D54CA1C-8FD1-C201-3188-29CD35F6603B</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comment" id="32530D5A-E2ED-8E1E-6583-50F51E2A581E">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>72637301-4581-3EAA-82F9-475CDB530FF5</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="user_id_user" id="C5808CD3-039A-2A64-2B52-493106D9E431">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>17E4C3FC-19CB-7E34-0B87-FC217AD31AC5</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C00B2AAA-CEE2-A642-CB9F-B14E88D04AC6" referredColumn="2C688024-A706-AD16-2548-02143232FA2B"/>
+</associations>
+</Column>
+<Column name="user_id_user1" id="3FDD8759-AEF0-E5AD-BEF9-0FB2AFCBF458">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>1265152E-C51F-208B-06EA-DE1DFDF51877</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8C1DD9AB-7B30-8207-013E-7E57BE3EF4DB" referredColumn="2C688024-A706-AD16-2548-02143232FA2B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F36B67B7-B055-7772-D2F1-80A356AE2517" name="opinion_PK">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>B9D2DD97-7E5D-16EF-E6DA-24DC471D2853</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F2014ED-51D7-6969-696C-1B78E7906D27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC253864-07DD-94C1-187D-3ED2467D359C" name="opinion_user_FK">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>7F6DEFBF-DB04-FEFF-F0B7-A79F09B7712E</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5808CD3-039A-2A64-2B52-493106D9E431"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="06AE3DB6-1601-0680-4AEA-4C8B7411B33B" name="opinion_user_FKv2">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>A3776B9F-C9DD-5EBB-4B4E-6267434835EF</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FDD8759-AEF0-E5AD-BEF9-0FB2AFCBF458"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

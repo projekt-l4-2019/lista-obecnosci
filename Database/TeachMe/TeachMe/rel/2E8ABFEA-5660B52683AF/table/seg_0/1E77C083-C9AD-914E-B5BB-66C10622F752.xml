@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E77C083-C9AD-914E-B5BB-66C10622F752" name="subject">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>2C78150B-35C9-14F5-8AC2-113F0EC6F6F8</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_subject" id="9C8FA300-D896-CED6-7110-83DA5E62DB82">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>FD266676-AEA0-26C4-9B96-696F9F9270B3</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="918D2764-B644-70C8-0095-B427F53871AF">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>151F9D0F-C0F4-44B8-8CE0-B1E56D5C9831</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>127</dataTypeSize>
+<ownDataTypeParameters>127,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="subject_id_subject" id="BCDC07BF-63B1-289E-6F62-56BD1E17F4DD">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>376604EB-1694-B30B-12CF-C60A1C8B21EB</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A7349CBC-D8A6-3289-F57D-23F1CD81680F" referredColumn="9C8FA300-D896-CED6-7110-83DA5E62DB82"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B3BDEB7E-0765-24A9-8158-93F1B900DD08" name="subject_PK">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>B5F9CF17-F2C5-1460-219B-8113340C803F</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C8FA300-D896-CED6-7110-83DA5E62DB82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00D60EEA-6353-BAAE-9CCC-91EA363D7F7C" name="subject_subject_FK">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>F6A3AE9F-1F47-D176-1FDF-3028A6D4CFC5</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BCDC07BF-63B1-289E-6F62-56BD1E17F4DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

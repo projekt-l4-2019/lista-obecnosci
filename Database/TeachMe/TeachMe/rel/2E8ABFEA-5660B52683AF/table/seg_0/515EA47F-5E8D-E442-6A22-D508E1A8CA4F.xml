@@ -1,0 +1,223 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="515EA47F-5E8D-E442-6A22-D508E1A8CA4F" name="user">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>0815C612-DF79-70D5-DCE3-6139FAC8FD4F</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_user" id="2C688024-A706-AD16-2548-02143232FA2B">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>FA92E55B-FF79-E625-2E0D-6569024B793C</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="login" id="65AE9E63-72F5-1C6C-F3C1-EB1D88748BE8">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>8F69D52A-C0C1-6675-37C2-29DAECACCBA3</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>127</dataTypeSize>
+<ownDataTypeParameters>127,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="4B1C39A8-9028-4BAA-90E2-8F81F10ED33A">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>31C9F209-D9BD-A67D-989C-570215A20EF4</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>127</dataTypeSize>
+<ownDataTypeParameters>127,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="surname" id="81E1AC60-F3C6-2167-8B52-7B0D8352EDAD">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>80E38B07-E09B-D8A5-6315-4B9E260B6A3C</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>127</dataTypeSize>
+<ownDataTypeParameters>127,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="birth_date" id="9FB19637-27B2-2D7B-5E86-5D3418CF5BB2">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>F67796AA-99E7-63AE-69D9-8DC599966B76</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="avatar" id="43014308-2F2B-542C-91D4-5A20779548B4">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>CA14B876-DC73-777E-C0D6-5B14960640A3</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone" id="B0284B5C-510A-BD52-EE70-EBC1039268C3">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>8C0B8D3D-3B4A-0640-88A1-92105177C138</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="F48F8812-0A04-4493-3A79-B01DB2CF774B">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>ABC0AAEE-DE38-7DD5-4A35-85C1E3C5F678</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>127</dataTypeSize>
+<ownDataTypeParameters>127,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="timestamp" id="D2F5E277-F544-90E0-C4F0-31ED512755B7">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>96AB5464-69F7-0ECC-68AC-AF183EFA2DDC</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="A7245D33-82EA-B614-E927-DD73A54FEA5C">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>02D590EA-3346-7BD3-918C-4C62BD060BEE</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city_id_city" id="59100DC4-EC1D-BF3E-8622-4955F756E5EF">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>9D72E3EA-6786-F125-6C3A-32DAC95CE368</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14A90134-98CB-19D0-9938-5BB98416489F" referredColumn="73CC5B08-C628-B58C-29C9-328AF9739D8A"/>
+</associations>
+</Column>
+<Column name="about" id="8BE7815E-7E96-9ACB-C1FC-3EBCA130F34C">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>9FB8C029-495A-2B31-F098-404E5E052E04</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_city" id="443C3196-731C-2EA0-F0DA-3F70D2D7C5AF">
+<createdBy>Mateusz</createdBy>
+<createdTime>2019-04-26 13:16:19 UTC</createdTime>
+<generatorID>FB769F56-6EEB-B113-78B9-9F2AC75B1805</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city_id_city2" id="EE4580DE-95FF-4C9E-8875-37F807DDE72B">
+<createdBy>Mateusz</createdBy>
+<createdTime>2019-05-03 21:23:24 UTC</createdTime>
+<generatorID>A1A545CD-F583-9E3D-E5A9-71527932A149</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC702E5D-1E38-BB4A-9605-2B4F51F76056" referredColumn="73CC5B08-C628-B58C-29C9-328AF9739D8A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2C4D59D3-99F6-A827-0C59-5430DB256291" name="user_PK">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>9C93AAD5-CCB1-AA27-7ECA-A1A66F129086</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C688024-A706-AD16-2548-02143232FA2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="40296D1B-49DB-774B-E83B-D39C0CBDFEB1" name="user_city_FK">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>49861A15-1BD8-B9E2-2D05-99842890D680</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59100DC4-EC1D-BF3E-8622-4955F756E5EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F3162BC-B14F-207A-04BD-48B2F63553E6" name="user_city_FKv1">
+<createdBy>Mateusz</createdBy>
+<createdTime>2019-05-03 21:23:24 UTC</createdTime>
+<generatorID>61231204-C5EF-1DA8-9579-105323B74D4A</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE4580DE-95FF-4C9E-8875-37F807DDE72B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

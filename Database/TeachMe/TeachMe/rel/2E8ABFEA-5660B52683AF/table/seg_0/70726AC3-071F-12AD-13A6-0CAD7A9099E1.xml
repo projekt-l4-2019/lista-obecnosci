@@ -1,0 +1,232 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="70726AC3-071F-12AD-13A6-0CAD7A9099E1" name="notice">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>720D5CFA-75D3-CD60-896A-BCAF0A838BE4</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_notice" id="0B79F54D-6256-4873-E04E-4E92F83C59C1">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>13C5305C-5150-0D61-C5EA-494B1C5040CC</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="look_or_offer" id="6201CF3D-215E-CBB1-23D2-9F322C946447">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>905CADE6-8B8F-33AF-D425-E52D70DA8CEE</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="note" id="1B48AC1A-B1FC-C4BF-EE87-1A7C4650AFAB">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>2F1D90FA-2CAF-6059-8827-8363218EF258</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="meeting_place" id="4185F22F-1C22-813C-07D5-6FDE2502B9BA">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>4A7E47B5-B02F-1F70-5C5E-23629C68E322</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>127</dataTypeSize>
+<ownDataTypeParameters>127,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="meeting_date" id="55194065-3DBA-0AC8-CE55-5062A533A16D">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>12BC2C6E-F1BC-BDD3-6B25-84F36E493F25</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="price" id="249F12F2-63E0-047A-F6BA-77C6D9C1FF9E">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>9D2C032C-F5A4-550E-E2A8-E060FCE8AA03</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="subject_id_subject" id="9F96664D-A4E1-C696-DC91-265E6DA059B5">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>BD9494BE-5537-9ABB-2F4F-D09B0C2A70DA</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ACDEE74C-FE23-785D-14D8-149460B0E26B" referredColumn="9C8FA300-D896-CED6-7110-83DA5E62DB82"/>
+</associations>
+</Column>
+<Column name="active" id="32710327-E62A-FF83-16BC-508CEC602AE3">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>CB3EE29A-BCB8-D07F-C65F-311C44281BFA</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="timestamp" id="7C90A732-CD16-8C6F-E265-A247E27842E3">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>3A117EC0-B2B4-1AE8-4A41-6E660664FA2C</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="user_id_user" id="9A018244-3859-0807-4B03-0ED9913ED09D">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>C0FF4898-C47F-BBB0-266F-4739E018EDB8</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7EB0B736-0C27-1DC3-66D1-0D875138809E" referredColumn="2C688024-A706-AD16-2548-02143232FA2B"/>
+</associations>
+</Column>
+<Column name="time_from" id="B605550F-8F8E-6D32-6AC9-D8B91CDC9E20">
+<createdBy>kamil</createdBy>
+<createdTime>2019-04-14 21:43:09 UTC</createdTime>
+<generatorID>8DE990A3-4574-3E97-8D0E-6F11705C61D9</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="time_to" id="43A3B34E-7C37-7DEE-E469-885EE27306F0">
+<createdBy>kamil</createdBy>
+<createdTime>2019-04-14 21:43:09 UTC</createdTime>
+<generatorID>7DFCEE0A-4BA5-E490-059E-6E2AB0EEA2BF</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="meeting_id_meeting" id="44EECDA1-4078-0F63-9ABE-4C22D8972B01">
+<createdBy>kamil</createdBy>
+<createdTime>2019-04-14 21:50:17 UTC</createdTime>
+<generatorID>BA3A1BC7-ADC1-D0B3-51B0-2A77FC52E683</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3DF6AD91-8E0F-9838-66D9-D64335E3D9A2" referredColumn="4E8FCA22-36E5-4297-3D24-BD0007D0F6A7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D99B7E81-55F9-0AFE-D474-CDC905D83817" name="notice_PK">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>B4404A90-02ED-C892-2C8E-228EB4A13EC3</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B79F54D-6256-4873-E04E-4E92F83C59C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48C71462-D1B8-248B-3966-15E4BE7B756C" name="notice__IDX">
+<createdBy>Mateusz</createdBy>
+<createdTime>2019-04-26 13:09:03 UTC</createdTime>
+<ownerDesignName>TeachMe</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>C8DF8581-5033-1F37-E1F4-9386DBBA2706</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="44EECDA1-4078-0F63-9ABE-4C22D8972B01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB65C802-8937-D25F-0344-2B71D609FE97" name="notice_subject_FK">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>5B75D079-63A0-1E10-9913-C6F6B1035914</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F96664D-A4E1-C696-DC91-265E6DA059B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3E785B8-8BDF-C926-15C9-EA94941B43CF" name="notice_user_FK">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>8FFEE721-DC4F-C8FA-1F9F-5615DBF330AB</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A018244-3859-0807-4B03-0ED9913ED09D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE42656E-79E9-4CDD-DE1E-C44279EC4F58" name="notice_meeting_FK">
+<createdBy>Mateusz</createdBy>
+<createdTime>2019-04-26 16:06:03 UTC</createdTime>
+<generatorID>C8DF8581-5033-1F37-E1F4-9386DBBA2706</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44EECDA1-4078-0F63-9ABE-4C22D8972B01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

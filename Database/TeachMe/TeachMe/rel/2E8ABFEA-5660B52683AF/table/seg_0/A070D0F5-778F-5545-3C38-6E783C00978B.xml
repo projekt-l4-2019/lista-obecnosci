@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A070D0F5-778F-5545-3C38-6E783C00978B" name="admin">
+<createdBy>Mateusz</createdBy>
+<createdTime>2019-04-26 16:06:03 UTC</createdTime>
+<generatorID>54305AB7-B0B7-92BB-8A0F-52D0F0DB9F2C</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_admin" id="274BD7BC-DB18-9290-B9D8-B1D25A0A6E4B">
+<createdBy>Mateusz</createdBy>
+<createdTime>2019-04-26 16:06:03 UTC</createdTime>
+<generatorID>87A34F82-48B4-5A01-310B-C7D1BC00BFE8</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="login" id="651FB57B-7F2E-C789-D386-E0EBFE6578EC">
+<createdBy>Mateusz</createdBy>
+<createdTime>2019-04-26 16:06:03 UTC</createdTime>
+<generatorID>018126C7-904F-D8BE-633F-D99A98ECFFD6</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>127</dataTypeSize>
+<ownDataTypeParameters>127,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pasword" id="B23F8FD0-7170-7478-164D-30CE0FCE38B1">
+<createdBy>Mateusz</createdBy>
+<createdTime>2019-04-26 16:06:03 UTC</createdTime>
+<generatorID>B1F1660D-A99D-D6BF-C68E-540251FCD9B4</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="821FA633-B13D-827C-63F5-31E1240CA484">
+<createdBy>Mateusz</createdBy>
+<createdTime>2019-04-26 16:06:03 UTC</createdTime>
+<generatorID>B995B047-1AAD-318A-E39A-686247ADA9FA</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>127</dataTypeSize>
+<ownDataTypeParameters>127,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="99606ECA-1770-B207-E851-4D35B4C97552" name="admin_PK">
+<createdBy>Mateusz</createdBy>
+<createdTime>2019-04-26 16:06:03 UTC</createdTime>
+<generatorID>E3219A14-3FDA-71AD-4F2C-72B1FF8C2C4A</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="274BD7BC-DB18-9290-B9D8-B1D25A0A6E4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

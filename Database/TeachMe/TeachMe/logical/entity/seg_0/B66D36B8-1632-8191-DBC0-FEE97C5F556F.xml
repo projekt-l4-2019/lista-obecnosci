@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B66D36B8-1632-8191-DBC0-FEE97C5F556F" name="voivodeship">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 21:25:17 UTC</createdTime>
+<generatorID>C270BE7E-075D-ACAE-75E1-FF9E3B28B1E3</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<engineerTo>
+<item key="2E8ABFEA-1A44-91EB-E05D-5660B52683AF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id voivodeship" id="6E40ACF7-E0FE-551C-7755-9BCC87FE3631">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 21:25:17 UTC</createdTime>
+<generatorID>1A83B781-3CF2-07E2-B8FC-1D99A14C3E3D</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<engineerTo>
+<item key="2E8ABFEA-1A44-91EB-E05D-5660B52683AF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name voivodeship" id="26E63021-C8DB-F4A5-6E5F-EF7EDAA539F8">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 21:25:17 UTC</createdTime>
+<generatorID>5D14E1EF-3C3F-042C-A628-F1814610E6E6</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<engineerTo>
+<item key="2E8ABFEA-1A44-91EB-E05D-5660B52683AF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>127</dataTypeSize>
+<ownDataTypeParameters>127,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8A37B4F8-8ADE-8907-256B-E91F506D1342" name="voivodeship PK">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 21:25:17 UTC</createdTime>
+<generatorID>C9899C23-35D6-BA65-9F42-AA1EC43B021B</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2E8ABFEA-1A44-91EB-E05D-5660B52683AF" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6E40ACF7-E0FE-551C-7755-9BCC87FE3631</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

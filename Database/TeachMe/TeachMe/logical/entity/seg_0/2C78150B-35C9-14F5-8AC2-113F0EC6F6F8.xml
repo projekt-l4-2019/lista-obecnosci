@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2C78150B-35C9-14F5-8AC2-113F0EC6F6F8" name="subject">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 21:25:17 UTC</createdTime>
+<generatorID>AB521A43-717D-4FEA-E8A9-5F3803106FE3</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<engineerTo>
+<item key="2E8ABFEA-1A44-91EB-E05D-5660B52683AF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id subject" id="FD266676-AEA0-26C4-9B96-696F9F9270B3">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 21:25:17 UTC</createdTime>
+<generatorID>B6BFB1DC-E0FD-1E89-9A68-5E3B03EF437C</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<engineerTo>
+<item key="2E8ABFEA-1A44-91EB-E05D-5660B52683AF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="151F9D0F-C0F4-44B8-8CE0-B1E56D5C9831">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 21:25:17 UTC</createdTime>
+<generatorID>5FEABBD2-EEB7-91FD-A1C9-B890D98AADC6</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<engineerTo>
+<item key="2E8ABFEA-1A44-91EB-E05D-5660B52683AF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>127</dataTypeSize>
+<ownDataTypeParameters>127,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="subject id subject" id="376604EB-1694-B30B-12CF-C60A1C8B21EB">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 21:32:45 UTC</createdTime>
+<generatorID>F6A3AE9F-1F47-D176-1FDF-3028A6D4CFC5</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<engineerTo>
+<item key="2E8ABFEA-1A44-91EB-E05D-5660B52683AF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>FD266676-AEA0-26C4-9B96-696F9F9270B3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B5F9CF17-F2C5-1460-219B-8113340C803F" name="subject PK">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 21:25:17 UTC</createdTime>
+<generatorID>9E638062-5348-8791-0186-CF25F007981F</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2E8ABFEA-1A44-91EB-E05D-5660B52683AF" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FD266676-AEA0-26C4-9B96-696F9F9270B3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

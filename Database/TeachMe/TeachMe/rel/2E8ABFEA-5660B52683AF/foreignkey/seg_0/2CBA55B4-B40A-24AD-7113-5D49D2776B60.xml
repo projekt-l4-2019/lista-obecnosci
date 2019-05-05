@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2CBA55B4-B40A-24AD-7113-5D49D2776B60" containerWithKeyObject="C6F34863-904E-2668-9A5E-0B02D7299C8A" localFKIndex="FB98AA41-6B29-F04F-CB18-442D87A869DD" name="city_voivodeship_FK">
+<createdBy>kondz</createdBy>
+<createdTime>2019-04-10 22:15:27 UTC</createdTime>
+<generatorID>9951FF93-4A83-9BBD-FAE6-F858F9A1A687</generatorID>
+<ownerDesignName>TeachMe</ownerDesignName>
+<referredTableLongName>voivodeship</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>74811F48-5656-C283-2354-4D238393B7D7</referredTableID>
+<keyObject>748E8F78-8BF2-AD85-1AA6-8BBB62E25D66</keyObject>
+<referredKeyID>748E8F78-8BF2-AD85-1AA6-8BBB62E25D66</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_voivodeship</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
